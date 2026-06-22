@@ -1,21 +1,164 @@
-<<<<<<< HEAD
-# React + Vite
+# Wesley Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React** and **Vite** to showcase my software engineering projects, technical skills, education, and professional experience.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This website was created as part of my software engineering portfolio to support applications for graduate software engineer and software developer roles.
 
-## React Compiler
+The portfolio highlights:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Academic and personal software projects
+* Technical skills and technologies
+* Educational background
+* Resume and professional links
+* Contact information
 
-## Expanding the ESLint configuration
+## Live Website
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio-website
-Personal portfolio website built with React and Vite to showcase software engineering projects, skills, and experience.
->>>>>>> 59882024d01bda993b4bfdf0c91de4ddaca08778
+Coming soon
+
+## Features
+
+* Single-page portfolio design
+* Responsive layout for desktop and mobile devices
+* Project showcase with GitHub links
+* Resume download functionality
+* Professional profile and education sections
+* Smooth navigation between sections
+* Modern dark-themed user interface
+
+## Technologies Used
+
+### Frontend
+
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+### Development Tools
+
+* Git
+* GitHub
+* Visual Studio Code
+
+## Projects Showcased
+
+### Portfolio Website
+
+Personal portfolio website designed and developed to showcase software engineering projects, technical skills, education, and professional experience.
+
+**Technologies:**
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+### SwinAdventure
+
+A C# console-based adventure game focused on object-oriented programming concepts.
+
+**Features:**
+
+* Command-based player interaction
+* Inventory and item management
+* Location movement system
+
+**Repository:**
+https://github.com/ChunWaiLeong/SwinAdventure
+
+### JobQuest
+
+A job seeker portal built using ASP.NET Core MVC and Entity Framework Core.
+
+**Features:**
+
+* Role-based views for job seekers, HR, and administrators
+* Job posting and application workflow
+* Account and job post management
+
+**Repository:**
+https://github.com/ChunWaiLeong/JobQuest.Web
+
+### Shift Scheduler
+
+An employee scheduling application built with Vue.js, PHP, and MySQL.
+
+**Features:**
+
+* Drag-and-drop shift scheduling
+* Employee and shift management
+* Backend persistence with MySQL
+
+**Repository:**
+https://github.com/ChunWaiLeong/Shift-Scheduler
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ChunWaiLeong/portfolio-website.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Author
+
+**Chun Wai Leong (Wesley)**
+
+Bachelor of Engineering (Software)
+Swinburne University of Technology
+
+GitHub:
+https://github.com/ChunWaiLeong
+
+LinkedIn:
+https://www.linkedin.com/in/chunwaileong/
+
+## Future Improvements
+
+* Deploy live demos for selected projects
+* Add project screenshots and walkthroughs
+* Expand project portfolio
+* Add detailed project case studies
+* Continue improving UI/UX and accessibility
