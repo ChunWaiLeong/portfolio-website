@@ -32,6 +32,18 @@ const projects = [
     ],
     githubUrl: 'https://github.com/ChunWaiLeong/Shift-Scheduler',
   },
+  {
+    title: 'Portfolio Website',
+    description: 'Personal portfolio website built with React and Vite to showcase software engineering projects, technical skills, education, and professional links.',
+    techStack: ['React', 'Vite', 'JavaScript', 'CSS'],
+    features: [
+      'Component-based React architecture',
+      'Data-driven project cards using reusable components',
+      'Responsive layout with mobile-first considerations',
+      'Resume and professional profile integration',
+    ],
+    githubUrl: 'https://github.com/ChunWaiLeong/portfolio-website',
+  },
 ]
 
 export default projects
