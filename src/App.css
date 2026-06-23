@@ -217,12 +217,6 @@ main {
   background: var(--accent);
 }
 
-.project-actions .secondary-project-action {
-  color: var(--text);
-  background: rgba(168, 179, 199, 0.08);
-  border: 1px solid var(--border);
-}
-
 .project-card a {
   color: var(--accent);
   font-weight: 700;
