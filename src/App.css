@@ -148,6 +148,7 @@ main {
 }
 
 .project-card,
+.experience-card,
 .timeline-card,
 .resume-section {
   padding: 20px;
@@ -234,6 +235,36 @@ main {
   color: #06111f;
 }
 
+.experience-grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.experience-card {
+  display: grid;
+  gap: 18px;
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.date-badge {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .timeline-card {
   position: relative;
   display: grid;
@@ -312,6 +343,14 @@ main {
   .project-actions a,
   .disabled-button {
     flex: 1 1 180px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .date-badge {
+    width: fit-content;
   }
 
   .resume-section {
