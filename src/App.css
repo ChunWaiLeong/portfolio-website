@@ -201,8 +201,7 @@ main {
   margin-top: auto;
 }
 
-.project-actions a,
-.disabled-button {
+.project-actions a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -218,11 +217,10 @@ main {
   background: var(--accent);
 }
 
-.disabled-button {
+.project-actions .secondary-project-action {
   color: var(--text);
   background: rgba(168, 179, 199, 0.08);
   border: 1px solid var(--border);
-  cursor: not-allowed;
 }
 
 .project-card a {
@@ -340,8 +338,7 @@ main {
     flex: 1 1 160px;
   }
 
-  .project-actions a,
-  .disabled-button {
+  .project-actions a {
     flex: 1 1 180px;
   }
 

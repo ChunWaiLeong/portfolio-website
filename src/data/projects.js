@@ -12,14 +12,15 @@ const projects = [
   },
   {
     title: 'JobQuest',
-    description: 'An ASP.NET Core MVC job seeker portal built with Entity Framework Core.',
-    techStack: ['ASP.NET Core MVC', 'Entity Framework Core', 'C#', 'SQL Server'],
+    description: 'A full-stack ASP.NET Core MVC job portal featuring role-based authentication, resume uploads, job application workflows, and administrative management tools.',
+    techStack: ['ASP.NET Core MVC', 'Entity Framework Core', 'C#', 'SQL Server', 'Bootstrap'],
     features: [
-      'Role-based views for job seekers, HR, and admin',
-      'Job posting and application workflow',
-      'Account and job post management',
+      'Role-based authentication for Job Seekers, HR, and Admin',
+      'Resume upload and job application tracking system',
+      'Factory Method and Strategy design pattern implementation',
     ],
     githubUrl: 'https://github.com/ChunWaiLeong/JobQuest.Web',
+    screenshotsUrl: 'https://github.com/ChunWaiLeong/JobQuest.Web/blob/main/README.md',
   },
   {
     title: 'Shift Scheduler',
