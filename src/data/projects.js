@@ -19,7 +19,7 @@ const projects = [
       'Component-based React architecture',
       'Automated deployment with Vercel',
     ],
-    githubUrl: 'https://github.com/ChunWaiLeong/JobQuest.Web',
+    githubUrl: 'https://github.com/ChunWaiLeong/portfolio-website',
   },
   {
     title: 'Shift Scheduler',
