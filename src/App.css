@@ -160,14 +160,9 @@ main {
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
-.project-summary {
-  min-height: 188px;
-}
-
-.project-summary p {
+.project-card p {
   margin-bottom: 16px;
 }
 
@@ -331,10 +326,6 @@ main {
 
   .project-grid {
     grid-template-columns: 1fr;
-  }
-
-  .project-summary {
-    min-height: 0;
   }
 
   .hero-actions .button {
