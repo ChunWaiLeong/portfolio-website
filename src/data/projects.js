@@ -11,6 +11,17 @@ const projects = [
     githubUrl: 'https://github.com/ChunWaiLeong/JobQuest.Web',
   },
   {
+    title: 'Portfolio Website',
+    description: 'A responsive developer portfolio built with React, TypeScript, and Tailwind CSS, showcasing projects, experience, and technical skills.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+    features: [
+      'Responsive design across desktop and mobile',
+      'Component-based React architecture',
+      'Automated deployment with Vercel',
+    ],
+    githubUrl: 'https://github.com/ChunWaiLeong/JobQuest.Web',
+  },
+  {
     title: 'Shift Scheduler',
     description: 'An employee scheduling system built with Vue.js, PHP, and MySQL.',
     techStack: ['Vue.js 3', 'Bootstrap', 'PHP', 'MySQL'],
