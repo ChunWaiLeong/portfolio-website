@@ -9,7 +9,7 @@ function Education() {
         <div>
           <h3>Bachelor of Engineering (Software)</h3>
           <p className="card-subtitle">Swinburne University of Technology</p>
-          <p>Final-year student</p>
+          <p>Expecting to graduate in June 2027</p>
         </div>
       </div>
 
