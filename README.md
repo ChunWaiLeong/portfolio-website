@@ -16,7 +16,7 @@ The portfolio highlights:
 
 ## Live Website
 
-Coming soon
+https://chunwaileong.vercel.app
 
 ## Features
 
