@@ -1,5 +1,17 @@
 const projects = [
   {
+    title: 'ServiceHub',
+    description: 'A full-stack appointment and service-booking platform built with React, ASP.NET Core, and PostgreSQL, featuring role-based access, business availability management, timezone-aware scheduling, and concurrency-safe bookings.',
+    techStack: ['React', 'TypeScript', 'ASP.NET Core', 'Entity Framework Core', 'PostgreSQL', 'Azure', 'Vercel', 'JWT'],
+    features: [
+      'Role-based authentication for Customers and Business Owners',
+      'Timezone-aware availability, working hours, and temporary closure management',
+      'Concurrency-safe booking system with PostgreSQL conflict protection',
+    ],
+    githubUrl: 'https://github.com/ChunWaiLeong/ServiceHub',
+    liveUrl: 'https://service-hub-gray-omega.vercel.app',
+  },
+  {
     title: 'JobQuest',
     description: 'A full-stack ASP.NET Core MVC job portal featuring role-based authentication, resume uploads, job application workflows, and administrative management tools.',
     techStack: ['ASP.NET Core MVC', 'Entity Framework Core', 'C#', 'SQL Server', 'Bootstrap'],

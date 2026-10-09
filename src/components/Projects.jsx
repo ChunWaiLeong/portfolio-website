@@ -27,6 +27,12 @@ function Projects() {
               <a href={project.githubUrl} target="_blank" rel="noreferrer">
                 GitHub
               </a>
+
+              {project.liveUrl && (
+                <a href={project.liveUrl} target="_blank" rel="noreferrer">
+                  Live Demo
+                </a>
+              )}
             </div>
           </article>
         ))}
