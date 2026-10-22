@@ -1,10 +1,10 @@
 import experiences from "../data/experiences"
+import SectionHeading from './SectionHeading'
 
 function Experience() {
   return (
     <section id="experience" className="section">
-      <p className="eyebrow">Experience</p>
-      <h2>Professional experience</h2>
+      <SectionHeading number="04" label="Experience" title="Professional experience" />
 
       <div className="experience-grid">
         {experiences.map((experience) => (

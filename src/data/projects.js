@@ -1,6 +1,8 @@
 const projects = [
   {
     title: 'ServiceHub',
+    type: 'personal',
+    featured: true,
     description: 'A full-stack appointment and service-booking platform built with React, ASP.NET Core, and PostgreSQL, featuring role-based access, business availability management, timezone-aware scheduling, and concurrency-safe bookings.',
     techStack: ['React', 'TypeScript', 'ASP.NET Core', 'Entity Framework Core', 'PostgreSQL', 'Azure', 'Vercel', 'JWT'],
     features: [
@@ -13,6 +15,8 @@ const projects = [
   },
   {
     title: 'JobQuest',
+    type: 'academic',
+    featured: false,
     description: 'A full-stack ASP.NET Core MVC job portal featuring role-based authentication, resume uploads, job application workflows, and administrative management tools.',
     techStack: ['ASP.NET Core MVC', 'Entity Framework Core', 'C#', 'SQL Server', 'Bootstrap'],
     features: [
@@ -24,6 +28,8 @@ const projects = [
   },
   {
     title: 'Portfolio Website',
+    type: 'personal',
+    featured: false,
     description: 'A responsive developer portfolio built with React, TypeScript, and Tailwind CSS, showcasing projects, experience, and technical skills.',
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     features: [
@@ -35,6 +41,8 @@ const projects = [
   },
   {
     title: 'Shift Scheduler',
+    type: 'academic',
+    featured: false,
     description: 'An employee scheduling system built with Vue.js, PHP, and MySQL.',
     techStack: ['Vue.js 3', 'Bootstrap', 'PHP', 'MySQL'],
     features: [
@@ -46,6 +54,8 @@ const projects = [
   },
   {
     title: 'SwinAdventure',
+    type: 'academic',
+    featured: false,
     description: 'A solo C# console adventure game focused on object-oriented programming.',
     techStack: ['C#', 'OOP', 'Console App'],
     features: [
