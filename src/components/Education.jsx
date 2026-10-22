@@ -1,8 +1,10 @@
+import SectionHeading from './SectionHeading'
+
 function Education() {
   return (
     <section id="education" className="section">
-      <p className="eyebrow">Education</p>
-      <h2>Academic background</h2>
+      <SectionHeading number="05" label="Education" title="Academic background" />
+      <div className="education-grid">
 
       <div className="timeline-card">
         <div className="timeline-marker" aria-hidden="true"></div>
@@ -20,6 +22,7 @@ function Education() {
           <p className="card-subtitle">Asia Pacific University</p>
           <p>Graduated on 2023</p>
         </div>
+      </div>
       </div>
     </section>
   )

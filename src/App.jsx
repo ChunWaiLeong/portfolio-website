@@ -12,8 +12,9 @@ import './App.css'
 function App() {
   return (
     <>
+      <a className="skip-link" href="#main-content">Skip to content</a>
       <Navbar />
-      <main>
+      <main id="main-content" tabIndex={-1}>
         <Hero />
         <About />
         <Skills />
@@ -23,6 +24,7 @@ function App() {
         <Resume />
         <Contact />
       </main>
+      <footer className="site-footer"><span>Wesley <span className="footer-dot">/</span> Chun Wai Leong</span><a href="#hero">Back to top ↑</a></footer>
     </>
   )
 }
